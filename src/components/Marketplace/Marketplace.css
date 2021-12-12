@@ -1,0 +1,46 @@
+.marketplace-cheak label input {
+  display: none; /* Hide the default checkbox */
+  cursor: pointer;
+}
+
+.marketplace-cheak label span {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  margin-right: 4px;
+  overflow: hidden;
+}
+
+/* Style its checked state...with a ticked icon */
+.marketplace-cheak [type="checkbox"]:checked + span:before {
+  content: "\f00c";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2196f3;
+  height: 100%;
+  width: 100%;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.slider .MuiSlider-colorPrimary {
+  color: white;
+}
+
+.product-bg {
+  background-image: url(../../assets/legandary-bg-2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.product-bg img {
+  max-width: 1000px;
+  width: 90%;
+}

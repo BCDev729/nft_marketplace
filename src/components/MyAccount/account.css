@@ -1,0 +1,147 @@
+.custom-container {
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+  padding: 0 16px;
+}
+
+.mythical,
+.legendary,
+.epic,
+.rare,
+.uncommon,
+.common,
+.loot-box {
+  border-radius: 8px;
+  padding: 4px;
+  font-size: 12px;
+}
+
+.mythical {
+  background: rgb(222, 151, 151);
+  background: radial-gradient(
+    circle,
+    rgba(222, 151, 151, 1) 0%,
+    rgba(245, 0, 0, 1) 35%
+  );
+}
+
+.legendary {
+  background: rgb(250, 209, 38);
+  background: radial-gradient(
+    circle,
+    rgba(250, 209, 38, 1) 0%,
+    rgba(247, 125, 77, 1) 35%
+  );
+}
+.epic {
+  background: rgb(206, 151, 222);
+  background: radial-gradient(
+    circle,
+    rgba(206, 151, 222, 1) 0%,
+    rgba(153, 0, 245, 1) 35%
+  );
+}
+
+.rare {
+  background: rgb(151, 168, 222);
+  background: radial-gradient(
+    circle,
+    rgba(151, 168, 222, 1) 0%,
+    rgba(0, 65, 245, 1) 35%
+  );
+}
+.uncommon {
+  background: rgb(81, 245, 151);
+  background: radial-gradient(
+    circle,
+    rgba(81, 245, 151, 1) 0%,
+    rgba(27, 162, 67, 1) 35%
+  );
+}
+
+.common {
+  background: rgb(214, 209, 216);
+  background: radial-gradient(
+    circle,
+    rgba(214, 209, 216, 1) 0%,
+    rgba(152, 167, 166, 1) 35%
+  );
+}
+
+.loot-box {
+  background: rgb(202, 142, 209);
+  background: radial-gradient(
+    circle,
+    rgba(202, 142, 209, 1) 0%,
+    rgba(247, 77, 185, 1) 35%
+  );
+}
+
+.mythical-b {
+  border: 1px solid #f01f1f;
+}
+.legendary-b {
+  border: 1px solid #ab912d;
+}
+.epic-b {
+  border: 1px solid #942ae5;
+}
+.rare-b {
+  border: 1px solid #2d5fab;
+}
+.uncommon-b {
+  border: 1px solid #22ad4f;
+}
+.common-b {
+  border: 1px solid #a6b0b1;
+}
+
+.gun-bg {
+  position: relative;
+  /* z-index: 99; */
+  background-image: url(../../assets/uncommon.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (max-width: 640px) {
+  .gun-bg {
+    background-size: contain;
+  }
+}
+@media (max-width: 580px) {
+  .gun-bg {
+    background-size: cover;
+  }
+}
+.mythical-b .gun-bg {
+  background-image: url(../../assets/mythical.png);
+}
+.legendary-b .gun-bg {
+  background-image: url(../../assets/Legendary.png);
+}
+.epic-b .gun-bg {
+  background-image: url(../../assets/epic.png);
+}
+.rare-b .gun-bg {
+  background-image: url(../../assets/rare.png);
+}
+.common-b .gun-bg {
+  background-image: url(../../assets/common.png);
+}
+.uncommon-b .gun-bg {
+  background-image: url(../../assets/uncommon.png);
+}
+
+.MuiButtonBase-root.MuiPaginationItem-root {
+  color: white;
+  font-family: "VCR OSD Mono";
+}
+.MuiButtonBase-root.MuiPaginationItem-root.Mui-selected {
+  background-color: #3c4c6d;
+}
+
+.MuiPagination-root .MuiPaginationItem-root {
+  color: white;
+}

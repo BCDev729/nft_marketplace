@@ -1,0 +1,20 @@
+.wallet-modal {
+  max-width: 600px;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+.meta-logo {
+  margin: 50px 0;
+}
+.meta-logo img {
+  max-width: 250px;
+  width: 95%;
+  margin: auto;
+  cursor: pointer;
+}
+.wallet-title span {
+  position: absolute;
+  right: 5%;
+  cursor: pointer;
+}
